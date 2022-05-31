@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "895628553948",
+    "project_id": "social-thoughts-b94ec",
+    "storage_bucket": "social-thoughts-b94ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895628553948:android:59cdac96286941268ece19",
+        "android_client_info": {
+          "package_name": "com.surajrathod.socialthoughts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895628553948-f1e87ivgknvat66dvrb7oed59k8fh6cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surajrathod.socialthoughts",
+            "certificate_hash": "f409bdcb1c9aa436326a5f4a3903763196149a0a"
+          }
+        },
+        {
+          "client_id": "895628553948-52bhfrqif66huseo5umi93et1cnkllc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8d34T8VOZU541Ifyeys6JKv4n09Y0jsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895628553948-52bhfrqif66huseo5umi93et1cnkllc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

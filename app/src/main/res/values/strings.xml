@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Social Thoughts</string>
+    <string name="copyright_text">Made With ❤ By Surajrathod007.</string>
+    <string name="action_favorite">action_logout</string>
+    <string name="action_settings">Logout</string>
+    <string name="logout_message">Do you want to logout?</string>
+    <string name="start">Yes</string>
+
+
+</resources>

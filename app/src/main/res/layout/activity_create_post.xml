@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    tools:context=".CreatePostActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:background="@drawable/edit_text_bg_new"
+        android:id="@+id/postInput"
+
+        android:fontFamily="@font/jost_regular"
+        android:textColor="#F2FFFFFF"
+        android:textColorHint="#CBFFFFFF"
+        android:hint="Share your thoughts..."
+        android:layout_margin="18dp"
+        android:gravity="top"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:fontFamily="@font/jost_regular"
+
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textColor="#CCFFFFFF"
+        android:background="@drawable/button_bg"
+        android:text="Share Your Thought !"
+        android:textAllCaps="false"
+        android:layout_margin="18dp"
+        android:id="@+id/postButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
